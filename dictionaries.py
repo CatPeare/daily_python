@@ -1,8 +1,9 @@
-person = {"name": "Alice", "age": 25, "city": "New York"}
+person = {"name": "Alice", "age": 25, "city": "New York", 4: 0}
 
 # Accessing values
 print(person["name"])  # Output: "Alice"
 print(person["age"])  # Output: 25
+print(person[4]) # Output: 0
 print(person.get("city"))  # Output: "New York"
 print(person.keys()) # Output: dict_keys(['name', 'age', 'city'])
 print(person.values()) # Output: dict_values(['Alice', 25, 'New York'])
